@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  background-color: #fff;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration-color: #720660;
+  color: #720660;
+
+}
+
+img {
+  width: 100%;
+}
+
+
+header {
+  overflow: auto;
+  background-color: #fff;
+  color: #720660;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+
+
+}
+
+header>div {
+  display: flex;
+  gap: 20px;
+}
+
+
+header>div>img {
+  width: 80px;
+  height: fit-content;
+}
+
+
+ul {
+  display: flex;
+  gap: 50px;
+
+}
+
+
+nav>ul>li {
+  font-size: 30px;
+  list-style: none;
+  justify-content: left;
+
+}
+
+
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:100px;
+
+}
+main>div{
+  width: 300px;
+  background-color: #f6f6f6;
+  padding-bottom: 30px;
+  border-radius: 10%;
+  
+
+
+}
+main>div>img{
+  border-radius: 50%;
+  outline: 15px solid white;
+  outline-offset: -15px;
+
+
+}
+main>div>p{
+text-align: center;
+font-weight: 800;
+}
+
+footer{
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  background-color: #393939;
+  color:#ECEFD8;
+}
