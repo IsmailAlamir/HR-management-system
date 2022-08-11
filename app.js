@@ -22,7 +22,7 @@ function Employee(fullName, department, level, image) {
         }
 
         let fallSalary = (Math.floor(Math.random() * (max - min)) + min);
-        let tax = fallSalary * 0.075
+        let tax = Math.floor(fallSalary * 0.075)
         this["salary"] = fallSalary - tax;
     }
 
